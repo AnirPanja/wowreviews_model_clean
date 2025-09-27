@@ -37,6 +37,7 @@ ALLOWED_HOSTS = [
     '192.168.1.41',
     '192.168.1.13',
     '192.168.1.20',
+    'specifiable-caliginously-sanjuanita.ngrok-free.dev',
 ]
 
 # CORS settings (keep as is, but ensure it aligns with frontend URLs)
@@ -57,6 +58,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://192.168.1.20:3000',
     'http://192.168.1.17:3000',
     'http://192.168.1.17:3001',
+    'https://specifiable-caliginously-sanjuanita.ngrok-free.dev',
 ]
 CSRF_TRUSTED_ORIGINS = CORS_ALLOWED_ORIGINS
 
@@ -81,6 +83,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
 ]
 
 ROOT_URLCONF = 'reports_model.urls'
